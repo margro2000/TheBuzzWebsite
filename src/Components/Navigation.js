@@ -2,6 +2,7 @@ import './Navigation.css';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 function Navigation() {
+
   return (
     <div className="Navigation">
     <Navbar bg="light" variant="light" className="justify-content-center">

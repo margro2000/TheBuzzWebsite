@@ -1,5 +1,6 @@
 import './Title.css';
-import The_Buzz_Logo from './The_Buzz_Logo.jpeg';
+import The_Buzz_Logo from '../Assets/The_Buzz_Logo.jpeg';
+
 
 function Title() {
   return (
