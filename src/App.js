@@ -1,14 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Title from './Components/Title.js';
-import Navigation from './Components/Navigation.js';
-import SectionTitle from './Components/SectionTitle.js';
-import ScrollSection from './Components/ScrollSection.js';
-import Home from './Components/Home.js';
-import Login from './Components/Authentication/Login';
-import Signup from './Components/Authentication/Signup';
+import Home from './Components/Home/Home.js';
+import Login from './Components/Authentication/Login/Login';
+import Signup from './Components/Authentication/Signup/Signup';
 import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import ContentSubmissionForm from './Components/Content/ContentSubmissionForm';
 
 // this component should be a root router file
 function App() {
@@ -20,6 +17,8 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/form" element={<ContentSubmissionForm />} />
+
               </Routes>
             </BrowserRouter>
         </div>
