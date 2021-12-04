@@ -1,0 +1,14 @@
+#signin {
+  color: #ffba32;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 24px;
+}
+
+#getstarted {
+  background-color: #ffa432;
+  color: white;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 6px;
+}
