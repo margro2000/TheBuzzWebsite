@@ -6,6 +6,7 @@ import Signup from './Components/Authentication/Signup/Signup';
 import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import ContentSubmissionForm from './Components/Content/ContentSubmissionForm';
+import AvatarButton from './Components/AvatarButton';
 
 // this component should be a root router file
 function App() {
@@ -18,7 +19,7 @@ function App() {
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/form" element={<ContentSubmissionForm />} />
-
+                <Route path="/avatar" element={<AvatarButton />} />
               </Routes>
             </BrowserRouter>
         </div>
