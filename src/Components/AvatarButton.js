@@ -1,12 +1,13 @@
 import React from 'react';
 import {Avatar} from '@material-ui/core';
 import { Dropdown } from 'react-bootstrap';
+import './AvatarButton.css';
 
 function AvatarButton() {
   return (
-    <Dropdown>
-    <Dropdown.Toggle bsPrefix="p-0">
-<Avatar alt="Remy Sharp"/>
+    <Dropdown id="dropdown">
+    <Dropdown.Toggle bsPrefix="p-0" id="toggle">
+<Avatar id="Avatar" alt="Remy Sharp" src={{ width: 600, height: 200 }}/>
 
 </Dropdown.Toggle>
 
